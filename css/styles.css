@@ -1,0 +1,65 @@
+body {
+	font-size:16px;
+	background-color:maroon;
+	color:white;
+}
+
+#header-nav {
+
+	border-radius:0;
+	border:0;
+}
+
+#logo-img {
+	background: url('../images/logo.jpg')no-repeat;
+	width:300px;
+	height:75px;
+	margin: 10px 15px 0 0;
+}
+
+
+.title {
+	text-align:center;
+}
+.box-chicken {
+
+	margin: 20px 20px 20px 20px;
+	padding:10px;
+	box-sizing:border-box;
+	border:5px solid gray;
+	background-color:Darkorange;
+}
+
+
+.box-beef {
+
+	margin: 20px 20px 20px 20px;
+	padding:10px;
+	box-sizing:border-box;
+	border:5px solid gray;
+	background-color:green;
+}
+
+.box-sushi {
+
+	margin: 20px 20px 20px 20px;
+	padding:10px;
+	box-sizing:border-box;
+	border:5px solid gray;
+	background-color:salmon;
+
+}
+
+
+
+
+/******SMALL DEVICES ONLY*******/
+@media(max-width:767px) {
+li {
+	text-align:center;
+	background-color:maroon;
+	border:1px solid white;
+	
+}
+
+}
